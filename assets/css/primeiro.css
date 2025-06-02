@@ -17,6 +17,46 @@
     font-weight: bold;
     color: aliceblue;
 }
+.informacao{
+    text-align: center;
+    padding: 10px;
+    font-size: 22px;
+    color: #183D63;
+
+}
+.titulo{
+    font-size: 36px;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    color: #FF9749;
+}
+.bb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 25px;
+    color: #183D63;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #FF9749;
+}
+.disciplinas{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
 
 nav-item {
     color: aliceblue;
@@ -136,5 +176,6 @@ nav-item {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    background-color: #004a8f;
+    background-color: #004a8f; 
+       width: 100%;
 }
