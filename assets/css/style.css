@@ -12,10 +12,13 @@
 }
 
 .titulo {
+    display: flex;
+    justify-content: center;
     text-align: center;
     padding: 20px;
     font-weight: bold;
     color: aliceblue;
+
 }
 
 nav-item {

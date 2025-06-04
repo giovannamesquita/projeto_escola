@@ -10,8 +10,15 @@
     background-color: #183D63;
     color: aliceblue;
 }
-
+.voltar{
+    background-color: #183D63;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
 .titulo {
+    display: flex;
+    justify-content: center;
     text-align: center;
     padding: 20px;
     font-weight: bold;
