@@ -65,6 +65,10 @@ body {
     background-color: #d4e2f1;
 }
 
+.azul{
+    color: steelblue;
+}
+
 .labelInput {
     display: block;
     font-weight: bold;
