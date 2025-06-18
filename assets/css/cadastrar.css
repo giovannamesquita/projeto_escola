@@ -11,14 +11,12 @@ body {
     align-items: center;
     justify-content: center;
 }
-
 .container {
     display: flex;
     flex-direction: column;
     height: 100vh;
     font: lobster;
 }
-
 .imagemin {
     width: 100%;
     height: 100%;
@@ -26,7 +24,6 @@ body {
     align-items: center;
     justify-content: center;
 }
-
 .box {
     color: white;
     position: absolute;
@@ -38,7 +35,6 @@ body {
     border-radius: 15px;
     width: 20%;
 }
-
 .inputBox {
     width: 100%;
     padding: 10px;
@@ -64,11 +60,9 @@ body {
     border: none;
     background-color: #d4e2f1;
 }
-
 .azul{
     color: steelblue;
 }
-
 .labelInput {
     display: block;
     font-weight: bold;
@@ -114,4 +108,10 @@ body {
 }
 .inv{
     margin-bottom: 10px;
+}
+.invisivel{
+    margin-top: 350px;
+}
+.mais{
+    margin-top: 50px;
 }

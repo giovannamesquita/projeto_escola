@@ -10,10 +10,8 @@
     background-color: #003366;
     color: aliceblue;
 }
-.container {
-    margin: auto;
-    margin-left: 0%;
-    margin-right: 0%;
+.navbar-toggler{
+    background-color: #ffffff;
 }
 .titulo {
     display: flex;

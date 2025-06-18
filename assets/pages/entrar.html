@@ -1,13 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
-    
-    <title>Document</title>
+    <link rel="stylesheet" href="../css/cadastrar.css">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lobster&family=Roboto:ital@0;1&display=swap"
+        rel="stylesheet">
+    <title>Entrar</title>
 </head>
+
 <body>
-    
+    <div class="container">
+        <header>
+            <div class="imagemin">
+                <img src="../img/logoo.png" alt="">
+            </div>
+
+        </header>
+
+        <main>
+            <div class="inv"></div>
+                <div class="inputBox">
+                    <label for="nome" class="labelInput">Nome completo</label>
+                    <input type="text" name="nome" id="nome" class="inputUser" required>
+                </div>
+                            <div class="inv"></div>
+
+                <div class="inputBox">
+                    <label for="email" class="labelInput">Email</label>
+                    <input type="text" name="email" id="email" class="inputUser" required>
+                </div>
+
+                            <div class="inv"></div>
+
+                <div class="inputBox">
+                    <label for="telefone" class="labelInput">Senha</label>
+                    <input type="password" name="senha" id="senha" class="inputUser" required>
+                </div>
+                <div class="inv"></div>
+
+                <input type="submit" name="submit" id="submit" value="Ir para Cadastro Final">
+                <a href="../../index.html" class="btn btn-secondary">Voltar</a>
+
+                <div class="invisivel"></div>
+            <div class="baixo">
+                    <img src="../img/fim.png" alt="">
+            </div>
+        </main>
+
+    <footer>
+    </footer>
+
+    </div>
 </body>
+
 </html>
