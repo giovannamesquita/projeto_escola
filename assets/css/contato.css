@@ -22,19 +22,9 @@
     text-align: center;
     padding: 20px;
     font-weight: bold;
-    color: aliceblue;
-}
-.informacao{
-    text-align: center;
-    padding: 10px;
-    font-size: 22px;
-    color: #183D63;
-
-}
-.titulo{
     font-size: 36px;
     text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
-    color: #FF9749;
+    color: #024281;
 }
 .bb{
     display: flex;
@@ -43,18 +33,6 @@
     margin-top: 20px;
     font-size: 25px;
     color: #183D63;
-}
-.main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-    background-color: #FF9749;
-}
-.disciplinas{
-    padding: 0;
-    margin: 0;
 }
 
 
@@ -69,8 +47,8 @@
 /* Sub-bloco */
 .subb {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
     margin-top: 20px;
     color: #183D63;
@@ -91,13 +69,31 @@
     align-items: center;
     gap: 20px;
     background-color: #004a8f; 
-       width: 100%;
+    width: 100%;
 }
 
-.caixa{
-    width: 10px;
-    height: 20px;
+
+.redr{
+    background-color: #183D63;
+    width: 40px;
+    height: 40px;
+    align-items: center;
 }
-.azul{
-    color: #578DD4;
+.alt{
+    width: 30px;
+    height: auto;
+}
+.caixinha{
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.ss{
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
 }
