@@ -48,13 +48,16 @@
     background-color: #183D63;
     width: 50%;
     border-radius: 7px;
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 130px;
+    
 }
 .claro{
-    margin-left: 5px;
+    display: flex;
+    align-items: center;
     color: white;
+    
 }
 /* Rodapé */
 .rodape {
@@ -82,5 +85,12 @@
     width: 100%;
     margin-top: 20px;
     display: flex;
+    align-items: center;
     justify-content: center;
+}
+.supreme{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }

@@ -81,6 +81,7 @@
     width: 100%;
     margin-top: 20px;
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
@@ -91,7 +92,7 @@
     align-items: center;
     gap: 20px;
     background-color: #004a8f; 
-       width: 100%;
+    width: 100%;
 }
 
 .caixa{
@@ -100,4 +101,12 @@
 }
 .azul{
     color: #578DD4;
+}
+.caixas{
+    background-color: #578DD4;
+    width: 10px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

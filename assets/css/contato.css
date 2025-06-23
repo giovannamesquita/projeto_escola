@@ -59,6 +59,7 @@
     width: 100%;
     margin-top: 20px;
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
@@ -96,4 +97,10 @@
     margin-top: 20px;
     display: flex;
     justify-content: center;
+}
+.supreme{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
