@@ -4,7 +4,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.body {
+    background-color: #183D63;
+    display: flex;
+}
 /* Geral */
 .container-fluid {
     background-color: #183D63;
@@ -16,50 +19,54 @@
     font-size: 25px;
     text-decoration: none;
 }
-.titulo {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding: 20px;
-    font-weight: bold;
-    color: aliceblue;
+.card{
+    background-color: #183D63;
+    border-radius: 24px;
+    padding: 24px;
+    min-width: 300px;
 }
-.informacao{
-    text-align: center;
-    padding: 10px;
-    font-size: 22px;
-    color: #183D63;
-}
-.invisivell{
-    height: 10px;
-}
-.inputBox {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 10px;
-    background-color: #d4e2f1;
-    /* Cor azul-claro */
-    font-size: 16px;
-    outline: none;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-top: 10px;
-}
-.bb{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    font-size: 25px;
-    color: #004a8f;
-}
-.main{
+.fields{
+    border-radius: 10px 10px 0 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.input-group{
+    flex-direction: row;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8px;
+    
+}
+.inp{
+    width: 50%;
+    align-items: center;
+}
+.card button{
+    background-color: #183D63;
+    color: white;
+    width: 50%;
+    margin-top: 10px;
+}
+.results-values{
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     margin-top: 20px;
+    max-width: 80vw;
+}
+.results-values .result-value{
     background-color: #FF9749;
+    margin: 8px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 48px;
+
 }
 
 /* Rodapé */
@@ -79,18 +86,11 @@
     margin-top: 20px;
     color: #183D63;
 }
+
+/* Baterias */
 .bat {
     width: 100%;
     margin-top: 20px;
     display: flex;
     justify-content: center;
-}
-
-.navv{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    background-color: #004a8f; 
-    width: 100%;
 }

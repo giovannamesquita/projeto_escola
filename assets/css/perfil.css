@@ -16,52 +16,46 @@
     font-size: 25px;
     text-decoration: none;
 }
-.titulo {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding: 20px;
-    font-weight: bold;
-    color: aliceblue;
-}
 .informacao{
     text-align: center;
     padding: 10px;
     font-size: 22px;
     color: #183D63;
 }
-.invisivell{
-    height: 10px;
-}
-.inputBox {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 10px;
-    background-color: #d4e2f1;
-    /* Cor azul-claro */
-    font-size: 16px;
-    outline: none;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-top: 10px;
-}
-.bb{
+.cima{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    font-size: 25px;
-    color: #004a8f;
 }
-.main{
+.foto{
+    width: 130px;
+    height: 130px;
+    border-radius: 20%;
+}
+.subemail{
+    font-size: 15px;
+    color: #183d6369;
+}
+.up{
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     margin-top: 20px;
-    background-color: #FF9749;
+    margin-bottom: auto;
 }
-
+.dow{
+    background-color: #183D63;
+    width: 50%;
+    border-radius: 7px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 130px;
+}
+.claro{
+    margin-left: 5px;
+    color: white;
+}
 /* Rodapé */
 .rodape {
     font-size: 20px;
@@ -69,7 +63,10 @@
     margin-top: 30px;
     color: #183D63;
 }
-
+.card{
+    background-color: aqua;
+    
+}
 /* Sub-bloco */
 .subb {
     display: flex;
@@ -79,18 +76,11 @@
     margin-top: 20px;
     color: #183D63;
 }
+
+/* Baterias */
 .bat {
     width: 100%;
     margin-top: 20px;
     display: flex;
     justify-content: center;
-}
-
-.navv{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    background-color: #004a8f; 
-    width: 100%;
 }
